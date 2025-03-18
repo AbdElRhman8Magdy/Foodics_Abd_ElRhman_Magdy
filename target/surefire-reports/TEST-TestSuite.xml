@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="45.333" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="20"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\abdel\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\abdel\OneDrive - Quality Professionals\Auto\2025\Foodics\Foodics_Abd_ElRhman\target\test-classes;C:\Users\abdel\OneDrive - Quality Professionals\Auto\2025\Foodics\Foodics_Abd_ElRhman\target\classes;C:\Users\abdel\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\abdel\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\abdel\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\abdel\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-java\4.10.0\selenium-java-4.10.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-api\4.10.0\selenium-api-4.10.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.10.0\selenium-chrome-driver-4.10.0.jar;C:\Users\abdel\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\abdel\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\abdel\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\abdel\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\abdel\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\abdel\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\abdel\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\abdel\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\abdel\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\abdel\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.10.0\selenium-chromium-driver-4.10.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-json\4.10.0\selenium-json-4.10.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.10.0\selenium-manager-4.10.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.10.0\selenium-devtools-v112-4.10.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.10.0\selenium-devtools-v113-4.10.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.10.0\selenium-devtools-v114-4.10.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.10.0\selenium-devtools-v85-4.10.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.10.0\selenium-edge-driver-4.10.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.10.0\selenium-firefox-driver-4.10.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-http\4.10.0\selenium-http-4.10.0.jar;C:\Users\abdel\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.10.0\selenium-ie-driver-4.10.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.10.0\selenium-remote-driver-4.10.0.jar;C:\Users\abdel\.m2\repository\io\netty\netty-buffer\4.1.92.Final\netty-buffer-4.1.92.Final.jar;C:\Users\abdel\.m2\repository\io\netty\netty-codec-http\4.1.92.Final\netty-codec-http-4.1.92.Final.jar;C:\Users\abdel\.m2\repository\io\netty\netty-codec\4.1.92.Final\netty-codec-4.1.92.Final.jar;C:\Users\abdel\.m2\repository\io\netty\netty-handler\4.1.92.Final\netty-handler-4.1.92.Final.jar;C:\Users\abdel\.m2\repository\io\netty\netty-common\4.1.92.Final\netty-common-4.1.92.Final.jar;C:\Users\abdel\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.92.Final\netty-transport-classes-epoll-4.1.92.Final.jar;C:\Users\abdel\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.92.Final\netty-transport-classes-kqueue-4.1.92.Final.jar;C:\Users\abdel\.m2\repository\io\netty\netty-transport-native-epoll\4.1.92.Final\netty-transport-native-epoll-4.1.92.Final.jar;C:\Users\abdel\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.92.Final\netty-transport-native-kqueue-4.1.92.Final.jar;C:\Users\abdel\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.92.Final\netty-transport-native-unix-common-4.1.92.Final.jar;C:\Users\abdel\.m2\repository\io\netty\netty-transport\4.1.92.Final\netty-transport-4.1.92.Final.jar;C:\Users\abdel\.m2\repository\io\netty\netty-resolver\4.1.92.Final\netty-resolver-4.1.92.Final.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-api\1.26.0\opentelemetry-api-1.26.0.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-context\1.26.0\opentelemetry-context-1.26.0.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.26.0\opentelemetry-exporter-logging-1.26.0.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.26.0\opentelemetry-sdk-metrics-1.26.0.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.26.0-alpha\opentelemetry-extension-incubator-1.26.0-alpha.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.26.0-alpha\opentelemetry-sdk-logs-1.26.0-alpha.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.26.0-alpha\opentelemetry-api-logs-1.26.0-alpha.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.26.0-alpha\opentelemetry-api-events-1.26.0-alpha.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.26.0\opentelemetry-sdk-common-1.26.0.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.26.0\opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.26.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.26.0\opentelemetry-sdk-trace-1.26.0.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.26.0\opentelemetry-sdk-1.26.0.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.26.0-alpha\opentelemetry-semconv-1.26.0-alpha.jar;C:\Users\abdel\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\abdel\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\abdel\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\abdel\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\abdel\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\abdel\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\abdel\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\abdel\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\abdel\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\abdel\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\abdel\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.10.0\selenium-safari-driver-4.10.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-support\4.10.0\selenium-support-4.10.0.jar;C:\Users\abdel\.m2\repository\io\github\bonigarcia\webdrivermanager\5.4.0\webdrivermanager-5.4.0.jar;C:\Users\abdel\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\abdel\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\abdel\.m2\repository\com\github\docker-java\docker-java\3.3.1\docker-java-3.3.1.jar;C:\Users\abdel\.m2\repository\com\github\docker-java\docker-java-core\3.3.1\docker-java-core-3.3.1.jar;C:\Users\abdel\.m2\repository\com\github\docker-java\docker-java-api\3.3.1\docker-java-api-3.3.1.jar;C:\Users\abdel\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\abdel\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\abdel\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\abdel\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\abdel\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\abdel\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\abdel\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\abdel\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\abdel\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.1\docker-java-transport-httpclient5-3.3.1.jar;C:\Users\abdel\.m2\repository\com\github\docker-java\docker-java-transport\3.3.1\docker-java-transport-3.3.1.jar;C:\Users\abdel\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\abdel\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\abdel\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\abdel\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\abdel\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\abdel\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\abdel\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\abdel\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\abdel\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\abdel\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\abdel\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\abdel\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\abdel\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\abdel\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\abdel\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\abdel\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\abdel\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\abdel\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\abdel\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\abdel\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\abdel\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\abdel\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\abdel\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\abdel\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\abdel\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\abdel\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\abdel\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\abdel\.m2\repository\org\jetbrains\annotations\26.0.2\annotations-26.0.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="20"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\abdel\.jdks\openjdk-20.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\abdel\AppData\Local\Temp\surefire12155966420531605635\surefirebooter-20250319000203259_3.jar C:\Users\abdel\AppData\Local\Temp\surefire12155966420531605635 2025-03-19T00-02-03_076-jvmRun1 surefire-20250319000203259_1tmp surefire_0-20250319000203259_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\abdel\OneDrive - Quality Professionals\Auto\2025\Foodics\Foodics_Abd_ElRhman\target\test-classes;C:\Users\abdel\OneDrive - Quality Professionals\Auto\2025\Foodics\Foodics_Abd_ElRhman\target\classes;C:\Users\abdel\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\abdel\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\abdel\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\abdel\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-java\4.10.0\selenium-java-4.10.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-api\4.10.0\selenium-api-4.10.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.10.0\selenium-chrome-driver-4.10.0.jar;C:\Users\abdel\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\abdel\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\abdel\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\abdel\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\abdel\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\abdel\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\abdel\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\abdel\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\abdel\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\abdel\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.10.0\selenium-chromium-driver-4.10.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-json\4.10.0\selenium-json-4.10.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.10.0\selenium-manager-4.10.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.10.0\selenium-devtools-v112-4.10.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.10.0\selenium-devtools-v113-4.10.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.10.0\selenium-devtools-v114-4.10.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.10.0\selenium-devtools-v85-4.10.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.10.0\selenium-edge-driver-4.10.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.10.0\selenium-firefox-driver-4.10.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-http\4.10.0\selenium-http-4.10.0.jar;C:\Users\abdel\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.10.0\selenium-ie-driver-4.10.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.10.0\selenium-remote-driver-4.10.0.jar;C:\Users\abdel\.m2\repository\io\netty\netty-buffer\4.1.92.Final\netty-buffer-4.1.92.Final.jar;C:\Users\abdel\.m2\repository\io\netty\netty-codec-http\4.1.92.Final\netty-codec-http-4.1.92.Final.jar;C:\Users\abdel\.m2\repository\io\netty\netty-codec\4.1.92.Final\netty-codec-4.1.92.Final.jar;C:\Users\abdel\.m2\repository\io\netty\netty-handler\4.1.92.Final\netty-handler-4.1.92.Final.jar;C:\Users\abdel\.m2\repository\io\netty\netty-common\4.1.92.Final\netty-common-4.1.92.Final.jar;C:\Users\abdel\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.92.Final\netty-transport-classes-epoll-4.1.92.Final.jar;C:\Users\abdel\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.92.Final\netty-transport-classes-kqueue-4.1.92.Final.jar;C:\Users\abdel\.m2\repository\io\netty\netty-transport-native-epoll\4.1.92.Final\netty-transport-native-epoll-4.1.92.Final.jar;C:\Users\abdel\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.92.Final\netty-transport-native-kqueue-4.1.92.Final.jar;C:\Users\abdel\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.92.Final\netty-transport-native-unix-common-4.1.92.Final.jar;C:\Users\abdel\.m2\repository\io\netty\netty-transport\4.1.92.Final\netty-transport-4.1.92.Final.jar;C:\Users\abdel\.m2\repository\io\netty\netty-resolver\4.1.92.Final\netty-resolver-4.1.92.Final.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-api\1.26.0\opentelemetry-api-1.26.0.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-context\1.26.0\opentelemetry-context-1.26.0.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.26.0\opentelemetry-exporter-logging-1.26.0.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.26.0\opentelemetry-sdk-metrics-1.26.0.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.26.0-alpha\opentelemetry-extension-incubator-1.26.0-alpha.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.26.0-alpha\opentelemetry-sdk-logs-1.26.0-alpha.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.26.0-alpha\opentelemetry-api-logs-1.26.0-alpha.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.26.0-alpha\opentelemetry-api-events-1.26.0-alpha.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.26.0\opentelemetry-sdk-common-1.26.0.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.26.0\opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.26.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.26.0\opentelemetry-sdk-trace-1.26.0.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.26.0\opentelemetry-sdk-1.26.0.jar;C:\Users\abdel\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.26.0-alpha\opentelemetry-semconv-1.26.0-alpha.jar;C:\Users\abdel\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\abdel\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\abdel\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\abdel\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\abdel\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\abdel\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\abdel\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\abdel\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\abdel\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\abdel\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\abdel\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.10.0\selenium-safari-driver-4.10.0.jar;C:\Users\abdel\.m2\repository\org\seleniumhq\selenium\selenium-support\4.10.0\selenium-support-4.10.0.jar;C:\Users\abdel\.m2\repository\io\github\bonigarcia\webdrivermanager\5.4.0\webdrivermanager-5.4.0.jar;C:\Users\abdel\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\abdel\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\abdel\.m2\repository\com\github\docker-java\docker-java\3.3.1\docker-java-3.3.1.jar;C:\Users\abdel\.m2\repository\com\github\docker-java\docker-java-core\3.3.1\docker-java-core-3.3.1.jar;C:\Users\abdel\.m2\repository\com\github\docker-java\docker-java-api\3.3.1\docker-java-api-3.3.1.jar;C:\Users\abdel\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\abdel\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\abdel\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\abdel\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\abdel\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\abdel\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\abdel\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\abdel\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\abdel\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.1\docker-java-transport-httpclient5-3.3.1.jar;C:\Users\abdel\.m2\repository\com\github\docker-java\docker-java-transport\3.3.1\docker-java-transport-3.3.1.jar;C:\Users\abdel\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\abdel\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\abdel\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\abdel\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\abdel\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\abdel\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\abdel\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\abdel\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\abdel\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\abdel\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\abdel\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\abdel\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\abdel\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\abdel\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\abdel\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\abdel\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\abdel\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\abdel\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\abdel\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\abdel\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\abdel\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\abdel\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\abdel\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\abdel\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\abdel\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\abdel\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\abdel\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\abdel\.m2\repository\org\jetbrains\annotations\26.0.2\annotations-26.0.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\abdel"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Users\abdel\.jdks\openjdk-20.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\abdel\OneDrive - Quality Professionals\Auto\2025\Foodics\Foodics_Abd_ElRhman"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\abdel\AppData\Local\Temp\surefire12155966420531605635\surefirebooter-20250319000203259_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="20.0.1+9-29"/>
+    <property name="user.name" value="abdel"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\abdel\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\abdel\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2023.2.7"/>
+    <property name="java.version" value="20.0.1"/>
+    <property name="user.dir" value="C:\Users\abdel\OneDrive - Quality Professionals\Auto\2025\Foodics\Foodics_Abd_ElRhman"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\abdel\.jdks\openjdk-20.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python311\Scripts\;C:\Python311\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Users\abdel\scoop\shims;C:\Users\abdel\AppData\Local\Microsoft\WindowsApps;C:\Users\abdel\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\abdel\AppData\Local\GitHubDesktop\bin;C:\Users\abdel\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="20.0.1+9-29"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="64.0"/>
+  </properties>
+  <testcase name="APis" classname="com.Foodics.Amazon.testcases.AmazonTaskTest" time="5.392">
+    <system-out><![CDATA[Software EngineerJohn Doe
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "John Doe",
+    "job": "Software Engineer"
+}
+HTTP/1.1 201 Created
+Date: Tue, 18 Mar 2025 22:02:12 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 95
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1742335332&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=KH10%2BqLE%2Fq%2F1ruScZZqs%2BGvCs5PVNCHYFAFHXBNySy8%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1742335332&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=KH10%2BqLE%2Fq%2F1ruScZZqs%2BGvCs5PVNCHYFAFHXBNySy8%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"5f-NqL6TscSwb4BiNdw5kYZiMF7MIY"
+Via: 1.1 vegur
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 92280355f88b0115-MRS
+server-timing: cfL4;desc="?proto=TCP&rtt=45101&min_rtt=44458&rtt_var=17958&sent=6&recv=6&lost=0&retrans=0&sent_bytes=3109&recv_bytes=842&delivery_rate=83462&cwnd=250&unsent_bytes=0&cid=d690f90669f8b7b8&ts=244&x=0"
+
+{
+    "name": "John Doe",
+    "job": "Software Engineer",
+    "id": "225",
+    "createdAt": "2025-03-18T22:02:12.851Z"
+}
+User created successfully with ID: 225
+Request method:	GET
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=2
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 18 Mar 2025 22:02:14 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Encoding: gzip
+Cf-Ray: 92280362197de1fd-MRS
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1742250511&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=oXa3OH49eINYIJhkFUhZGgR%2FFX8BZVuIs1iFI%2F%2BxZ%2FI%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1742250511&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=oXa3OH49eINYIJhkFUhZGgR%2FFX8BZVuIs1iFI%2F%2BxZ%2FI%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"152-ApQgGHL6RKwaebFlrPCYPBO1xHg"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+Cf-Cache-Status: HIT
+Age: 4009
+Vary: Accept-Encoding
+Server: cloudflare
+server-timing: cfL4;desc="?proto=TCP&rtt=67498&min_rtt=67498&rtt_var=33749&sent=6&recv=5&lost=0&retrans=1&sent_bytes=3460&recv_bytes=746&delivery_rate=25109&cwnd=249&unsent_bytes=0&cid=9b89824dbc866736&ts=178&x=0"
+
+{
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."
+    }
+}
+User retrieved successfully with ID: 225
+HTTP/1.1 200 OK
+Date: Tue, 18 Mar 2025 22:02:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 40
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1742335335&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=tn3j2ZQKHOpo%2FlxL7YhxTaEq8jSOpy2tBhlnEunbB1I%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1742335335&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=tn3j2ZQKHOpo%2FlxL7YhxTaEq8jSOpy2tBhlnEunbB1I%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"28-e7MGMgkIJJ17U7ROFNQ8CvODWvg"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 92280363989fe15e-MRS
+server-timing: cfL4;desc="?proto=TCP&rtt=47029&min_rtt=43283&rtt_var=18907&sent=5&recv=5&lost=0&retrans=0&sent_bytes=3108&recv_bytes=846&delivery_rate=95649&cwnd=252&unsent_bytes=0&cid=954c160625b574e7&ts=133&x=0"
+
+{
+    "updatedAt": "2025-03-18T22:02:15.042Z"
+}
+User updated successfully with ID: 225
+]]></system-out>
+    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+Mar 19, 2025 12:02:06 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+Mar 19, 2025 12:02:06 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+Mar 19, 2025 12:02:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 19, 2025 12:02:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 19, 2025 12:02:08 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.10.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Mar 19, 2025 12:02:08 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.10.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="API" classname="com.Foodics.Amazon.testcases.AmazonTaskTest" time="38.321">
+    <failure message="invalid selector: An invalid or illegal selector was specified&#10;  (Session info: chrome=134.0.6998.89)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [9081f0d943f5275faa2281359c96f002, findElement {using=css selector, value=li[id=&apos;address-ui-widgets-autoCompleteResult-0&apos;]]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\abdel\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61417}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61417/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 9081f0d943f5275faa2281359c96f002" type="org.openqa.selenium.InvalidSelectorException"><![CDATA[org.openqa.selenium.InvalidSelectorException: 
+invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=134.0.6998.89)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9081f0d943f5275faa2281359c96f002, findElement {using=css selector, value=li[id='address-ui-widgets-autoCompleteResult-0']]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\abdel\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61417}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61417/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9081f0d943f5275faa2281359c96f002
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at com.Foodics.Amazon.pages.CartDetails.ViewCart(CartDetails.java:72)
+	at com.Foodics.Amazon.testcases.AmazonTaskTest.API(AmazonTaskTest.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+]]></failure>
+    <system-out><![CDATA[All Video Games
+true
+No products below 15000.0 EGP found on page 1. Moving to the next page.
+No products below 15000.0 EGP found on page 2. Moving to the next page.
+No products below 15000.0 EGP found on page 3. Moving to the next page.
+No products below 15000.0 EGP found on page 4. Moving to the next page.
+No products below 15000.0 EGP found on page 5. Moving to the next page.
+]]></system-out>
+    <system-err><![CDATA[Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+Could not parse price for a product.
+]]></system-err>
+  </testcase>
+</testsuite>

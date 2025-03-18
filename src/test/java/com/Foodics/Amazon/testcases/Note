@@ -1,0 +1,30 @@
+to run Maven -> go to maven from sidebar and choose run instead of terminal,
+otherwise you have to setup maven on OS environment variables
+
+{{mvn clean test}} -> by that will run any class it's name end with ....Test
+
+{{mvn clean test -Dbrowser=EDGE}}
+
+{{mvn clean test -Denv=Production}}
+
+<build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.2.2</version>
+                <configuration>
+                    <parallel>methods</parallel> --> methods Run for Tests ---> classes run for @test inside each
+                    <threadCount>10</threadCount> ----> no of paralled threds open
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
+    and driver not working convert it to get driver from BaseTest
+
+    https://allurereport.org/
+scoop install allure
+
+allure serve allure-results // to print allure report
