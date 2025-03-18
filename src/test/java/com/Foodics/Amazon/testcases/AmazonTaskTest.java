@@ -16,7 +16,7 @@ public class AmazonTaskTest extends BaseTest {
 
 
     @Test
-    public void API() throws InterruptedException, IOException {
+    public void Amazon() throws InterruptedException, IOException {
         LoginPage loginPage = new LoginPage(getDriver());
         loginPage.Load()
                 .login()

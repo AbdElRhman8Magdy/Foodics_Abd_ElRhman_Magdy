@@ -149,9 +149,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9081f0d943f5275faa2281359c96f002, findElement {using=css selector, value=li[id=&apos;address-ui-widgets-autoCompleteResult-0&apos;]]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\abdel\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61417}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61417/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9081f0d943f5275faa2281359c96f002
+Command: [1e36ef43910cf45d8bdde9075ab35610, findElement {using=css selector, value=li[id=&apos;address-ui-widgets-autoCompleteResult-0&apos;]]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\abdel\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65515}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65515/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e36ef43910cf45d8bdde9075ab35610
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
@@ -165,8 +165,8 @@ Session ID: 9081f0d943f5275faa2281359c96f002
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at com.Foodics.Amazon.pages.CartDetails.ViewCart(CartDetails.java:72)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at com.Foodics.Amazon.pages.CartDetails.ViewCart(CartDetails.java:70)
 	at com.Foodics.Amazon.testcases.AmazonTaskTest.API(AmazonTaskTest.java:30)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
@@ -203,7 +203,6 @@ Session ID: 9081f0d943f5275faa2281359c96f002
 &lt;suite thread-count=&quot;10&quot; parallel=&quot;methods&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;10&quot; parallel=&quot;methods&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.Foodics.Amazon.API.ReqresApiTests&quot;/&gt;
       &lt;class name=&quot;com.Foodics.Amazon.base.BaseTest&quot;/&gt;
       &lt;class name=&quot;com.Foodics.Amazon.testcases.AmazonTaskTest&quot;/&gt;
     &lt;/classes&gt;
@@ -219,7 +218,7 @@ Session ID: 9081f0d943f5275faa2281359c96f002
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (3 classes)</span>
+                <span class="test-name">Surefire test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -249,16 +248,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'API')
 data.setCell(0, 2, 'com.Foodics.Amazon.testcases.AmazonTaskTest')
-data.setCell(0, 3, 38318);
+data.setCell(0, 3, 85747);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'APis')
 data.setCell(1, 2, 'com.Foodics.Amazon.testcases.AmazonTaskTest')
-data.setCell(1, 3, 5382);
+data.setCell(1, 3, 21579);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 43 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -294,22 +293,22 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">APis</span>
-                <span class="method-start">3422 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">API</span>
-                <span class="method-start">3422 ms</span>
+                <span class="method-start">8733 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">APis</span>
+                <span class="method-start">8733 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Close([TestResult name=APis status=SUCCESS method=AmazonTaskTest.APis()[pri:0, instance:com.Foodics.Amazon...)</span>
-                <span class="method-start">8819 ms</span>
+                <span class="method-start">30361 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">Close([TestResult name=API status=FAILURE method=AmazonTaskTest.API()[pri:0, instance:com.Foodics.Amazon.t...)</span>
-                <span class="method-start">41748 ms</span>
+                <span class="method-start">94498 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

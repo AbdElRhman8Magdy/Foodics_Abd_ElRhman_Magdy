@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-19T00:02:05 EET" name="Surefire suite" finished-at="2025-03-19T00:02:49 EET" duration-ms="43992">
+  <suite started-at="2025-03-19T01:20:24 EET" name="Surefire suite" finished-at="2025-03-19T01:22:02 EET" duration-ms="97705">
     <groups>
     </groups>
-    <test started-at="2025-03-19T00:02:05 EET" name="Surefire test" finished-at="2025-03-19T00:02:49 EET" duration-ms="43992">
+    <test started-at="2025-03-19T01:20:24 EET" name="Surefire test" finished-at="2025-03-19T01:22:02 EET" duration-ms="97705">
       <class name="com.Foodics.Amazon.testcases.AmazonTaskTest">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Foodics.Amazon.testcases.AmazonTaskTest@d5ce97f]" started-at="2025-03-19T00:02:05 EET" name="Setup" finished-at="2025-03-19T00:02:08 EET" duration-ms="3282" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Foodics.Amazon.testcases.AmazonTaskTest@5b498842]" started-at="2025-03-19T01:20:24 EET" name="Setup" finished-at="2025-03-19T01:20:33 EET" duration-ms="8462" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Foodics.Amazon.testcases.AmazonTaskTest@d5ce97f]" started-at="2025-03-19T00:02:05 EET" name="Setup" finished-at="2025-03-19T00:02:08 EET" duration-ms="3257" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Foodics.Amazon.testcases.AmazonTaskTest@5b498842]" started-at="2025-03-19T01:20:24 EET" name="Setup" finished-at="2025-03-19T01:20:33 EET" duration-ms="8415" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="APis()[pri:0, instance:com.Foodics.Amazon.testcases.AmazonTaskTest@d5ce97f]" started-at="2025-03-19T00:02:09 EET" name="APis" finished-at="2025-03-19T00:02:14 EET" duration-ms="5382" status="PASS">
+        <test-method signature="APis()[pri:0, instance:com.Foodics.Amazon.testcases.AmazonTaskTest@5b498842]" started-at="2025-03-19T01:20:33 EET" name="APis" finished-at="2025-03-19T01:20:55 EET" duration-ms="21579" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- APis -->
-        <test-method signature="API()[pri:0, instance:com.Foodics.Amazon.testcases.AmazonTaskTest@d5ce97f]" started-at="2025-03-19T00:02:09 EET" name="API" finished-at="2025-03-19T00:02:47 EET" duration-ms="38318" status="FAIL">
+        <test-method signature="API()[pri:0, instance:com.Foodics.Amazon.testcases.AmazonTaskTest@5b498842]" started-at="2025-03-19T01:20:33 EET" name="API" finished-at="2025-03-19T01:21:59 EET" duration-ms="85747" status="FAIL">
           <exception class="org.openqa.selenium.InvalidSelectorException">
             <message>
               <![CDATA[invalid selector: An invalid or illegal selector was specified
@@ -28,9 +28,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9081f0d943f5275faa2281359c96f002, findElement {using=css selector, value=li[id='address-ui-widgets-autoCompleteResult-0']]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\abdel\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61417}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61417/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9081f0d943f5275faa2281359c96f002]]>
+Command: [1e36ef43910cf45d8bdde9075ab35610, findElement {using=css selector, value=li[id='address-ui-widgets-autoCompleteResult-0']]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\abdel\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65515}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65515/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e36ef43910cf45d8bdde9075ab35610]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
@@ -39,9 +39,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9081f0d943f5275faa2281359c96f002, findElement {using=css selector, value=li[id='address-ui-widgets-autoCompleteResult-0']]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\abdel\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61417}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61417/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9081f0d943f5275faa2281359c96f002
+Command: [1e36ef43910cf45d8bdde9075ab35610, findElement {using=css selector, value=li[id='address-ui-widgets-autoCompleteResult-0']]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\abdel\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65515}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65515/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e36ef43910cf45d8bdde9075ab35610
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -58,8 +58,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-at com.Foodics.Amazon.pages.CartDetails.ViewCart(CartDetails.java:72)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at com.Foodics.Amazon.pages.CartDetails.ViewCart(CartDetails.java:70)
 at com.Foodics.Amazon.testcases.AmazonTaskTest.API(AmazonTaskTest.java:30)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
@@ -80,22 +80,22 @@ at java.base/java.lang.Thread.run(Thread.java:1623)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- API -->
-        <test-method is-config="true" signature="Close(org.testng.ITestResult)[pri:0, instance:com.Foodics.Amazon.testcases.AmazonTaskTest@d5ce97f]" started-at="2025-03-19T00:02:14 EET" name="Close" finished-at="2025-03-19T00:02:16 EET" duration-ms="2161" status="PASS">
+        <test-method is-config="true" signature="Close(org.testng.ITestResult)[pri:0, instance:com.Foodics.Amazon.testcases.AmazonTaskTest@5b498842]" started-at="2025-03-19T01:20:55 EET" name="Close" finished-at="2025-03-19T01:20:58 EET" duration-ms="3168" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=APis status=SUCCESS method=AmazonTaskTest.APis()[pri:0, instance:com.Foodics.Amazon.testcases.AmazonTaskTest@d5ce97f] output={null}]]]>
+                <![CDATA[[TestResult name=APis status=SUCCESS method=AmazonTaskTest.APis()[pri:0, instance:com.Foodics.Amazon.testcases.AmazonTaskTest@5b498842] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-        <test-method is-config="true" signature="Close(org.testng.ITestResult)[pri:0, instance:com.Foodics.Amazon.testcases.AmazonTaskTest@d5ce97f]" started-at="2025-03-19T00:02:47 EET" name="Close" finished-at="2025-03-19T00:02:49 EET" duration-ms="2178" status="PASS">
+        <test-method is-config="true" signature="Close(org.testng.ITestResult)[pri:0, instance:com.Foodics.Amazon.testcases.AmazonTaskTest@5b498842]" started-at="2025-03-19T01:21:59 EET" name="Close" finished-at="2025-03-19T01:22:02 EET" duration-ms="3065" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=API status=FAILURE method=AmazonTaskTest.API()[pri:0, instance:com.Foodics.Amazon.testcases.AmazonTaskTest@d5ce97f] output={null}]]]>
+                <![CDATA[[TestResult name=API status=FAILURE method=AmazonTaskTest.API()[pri:0, instance:com.Foodics.Amazon.testcases.AmazonTaskTest@5b498842] output={null}]]]>
               </value>
             </param>
           </params>
