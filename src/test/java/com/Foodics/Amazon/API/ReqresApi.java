@@ -13,25 +13,25 @@ public class ReqresApi {
 
     private int userId;
 
-    @JsonIgnoreProperties(value= {"handler","hibernateLazyInitializer","FieldHandler"})
+    @JsonIgnoreProperties(value = {"handler", "hibernateLazyInitializer", "FieldHandler"})
     public void createUser() {
         User user = new User("John Doe", "Software Engineer");
-        System.out.println(user.getJob()+user.getName());
+        System.out.println(user.getJob() + user.getName());
         try {
             Response response =
-                  given()
-                    .baseUri(EndPoint.API_BaseURI_ENDPOINT)
-                    .contentType(ContentType.JSON)
-                    .body(user)
-                          .log().all()
+                    given()
+                            .baseUri(EndPoint.API_BaseURI_ENDPOINT)
+                            .contentType(ContentType.JSON)
+                            .body(user)
+                            .log().all()
                     .when()
-                    .post(EndPoint.API_BaseURI_ENDPOINT_User)
+                            .post(EndPoint.API_BaseURI_ENDPOINT_User)
                     .then()
-                          .log().all()
-                    .statusCode(201)
-                    .contentType(ContentType.JSON)
-                    .extract()
-                    .response();
+                            .log().all()
+                            .statusCode(201)
+                            .contentType(ContentType.JSON)
+                            .extract()
+                            .response();
 
             userId = response.jsonPath().getInt("id");
             Assert.assertNotNull(userId, "User ID should not be null");
@@ -40,8 +40,7 @@ public class ReqresApi {
             Assert.assertNotNull(response.jsonPath().getString("createdAt"), "createdAt should not be null");
 
             System.out.println("User created successfully with ID: " + userId);
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
             Assert.fail("Error creating user: " + e.getMessage());
         }
@@ -53,19 +52,18 @@ public class ReqresApi {
         try {
             Response response =
                     given()
-                        .baseUri(EndPoint.API_BaseURI_ENDPOINT)
-                        .pathParam("id", "2")// created user not able to be retrived even using postman OR Swagger
-                        .log().all()
+                            .baseUri(EndPoint.API_BaseURI_ENDPOINT)
+                            .pathParam("id", "2")// created user not able to be retrived even using postman OR Swagger
+                            .log().all()
                     .when()
 //                    .   get("/api/users/{id}")
-                            .   get("/api/users/{id}")
-
+                            .get("/api/users/{id}")
                     .then()
-                        .log().all()
-                        .statusCode(200)
-                        .contentType(ContentType.JSON)
-                        .extract()
-                        .response();
+                            .log().all()
+                            .statusCode(200)
+                            .contentType(ContentType.JSON)
+                            .extract()
+                            .response();
 
             Assert.assertEquals(response.jsonPath().getString("data.first_name") + " " + response.jsonPath().getString("data.last_name"), "Janet Weaver", "Name mismatch");
             Assert.assertEquals(response.jsonPath().getString("data.last_name"), "Weaver", "Job mismatch");
@@ -97,7 +95,7 @@ public class ReqresApi {
                     .extract()
                     .response();
 ///*Update user always return
-  //  "updatedAt": "2025-03-18T22:00:06.418Z"
+            //  "updatedAt": "2025-03-18T22:00:06.418Z"
 
 //            Assert.assertEquals(response.jsonPath().getString("name"), updatedUser.getName(), "Updated name mismatch");
 //            Assert.assertEquals(response.jsonPath().getString("job"), updatedUser.getJob(), "Updated job mismatch");

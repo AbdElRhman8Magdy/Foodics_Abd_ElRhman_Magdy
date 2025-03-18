@@ -41,16 +41,11 @@ public class VideoGames extends BasePage {
     private WebElement Cart;
 
 
-
-
-
     @Step
-    public void Filter(){
+    public void Filter() {
 
-        JavascriptExecutor jse = (JavascriptExecutor)driver;
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
 
-//        FreeShipping.click();
-//        NewCond.click();
         AllResults.click();
         jse.executeScript("arguments[0].click()", FreeShipping);
 
@@ -64,6 +59,7 @@ public class VideoGames extends BasePage {
 
 
     }
+
     @Step
     public boolean addProductsBelowPriceToCart(double maxPrice) throws InterruptedException {
         boolean itemsAdded = false;
@@ -79,7 +75,7 @@ public class VideoGames extends BasePage {
                     double price = Double.parseDouble(priceText);
                     System.out.println(currentProductPrices);
                     System.out.println("Price: " + price + " | Title: " + currentProductTitles.get(i).getText());
-                    System.out.println("price is "+priceText+" "+price+" "+"Title is "+currentProductTitles);
+                    System.out.println("price is " + priceText + " " + price + " " + "Title is " + currentProductTitles);
                     if (price < maxPrice) {
                         System.out.println("Adding to cart: " + currentProductTitles.get(i).getText() + " - Price: " + price);
                         WebElement productContainer = currentProductTitles.get(i).findElement(By.xpath("//a[@class='a-link-normal s-line-clamp-2 s-link-style a-text-normal']//parent::div//parent::div"));

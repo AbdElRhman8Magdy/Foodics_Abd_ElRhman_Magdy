@@ -11,10 +11,9 @@ import org.openqa.selenium.support.FindBy;
 
 public class CartDetails extends BasePage {
     /**
-     * 
      * @param driver
      */
-    public CartDetails(WebDriver driver){
+    public CartDetails(WebDriver driver) {
         super(driver);
     }
 
@@ -31,13 +30,15 @@ public class CartDetails extends BasePage {
     private WebElement StreetInput;
     @FindBy(xpath = "//input[@id='address-ui-widgets-enter-building-name-or-number']")
     private WebElement BuildingNoInput;
-    @FindBy(xpath = "//input[@id='address-ui-widgets-enterAddressCity']") //li[id='address-ui-widgets-autoCompleteResult-0']
+    @FindBy(xpath = "//input[@id='address-ui-widgets-enterAddressCity']")
+    //li[id='address-ui-widgets-autoCompleteResult-0']
     private WebElement CityInput;
     @FindBy(css = "li[id='address-ui-widgets-autoCompleteResult-0']")
     private WebElement CitySelectInput;
     @FindBy(xpath = "//input[@id='address-ui-widgets-enterAddressDistrictOrCounty']")
     private WebElement DistrictInput;
-    @FindBy(css = "li[id='address-ui-widgets-autoCompleteResult-0']]") //li[id='address-ui-widgets-autoCompleteResult-0']
+    @FindBy(css = "li[id='address-ui-widgets-autoCompleteResult-0']]")
+    //li[id='address-ui-widgets-autoCompleteResult-0']
     private WebElement DistrictSelectInput;
     @FindBy(xpath = "//input[@id='address-ui-widgets-landmark']")
     private WebElement LandMarkInput;
@@ -45,12 +46,9 @@ public class CartDetails extends BasePage {
     private WebElement SubmitBTN;
 
 
-
-
-
     @Step
     public void ViewCart() throws InterruptedException {
-        JavascriptExecutor jse = (JavascriptExecutor)driver;
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("arguments[0].click()", CheckOut);
 //        CheckOut.click();
 

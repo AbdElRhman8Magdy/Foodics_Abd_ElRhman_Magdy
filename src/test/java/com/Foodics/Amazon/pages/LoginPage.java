@@ -16,10 +16,10 @@ import java.util.List;
 public class LoginPage extends BasePage {
 
 
+    public LoginPage(WebDriver driver) {
+        super(driver);
+    }
 
-   public LoginPage(WebDriver driver) {
-       super(driver);
-   }
     @FindBy(id = "nav-link-accountList")
     private WebElement LoginMenu;
 
@@ -33,40 +33,42 @@ public class LoginPage extends BasePage {
     @FindBy(id = "continue")
     private WebElement GoToPassowrd;
 
-    @FindBy (xpath = "//*[@name='password']")
+    @FindBy(xpath = "//*[@name='password']")
     private WebElement PasswordInput;
     @FindBy(id = "signInSubmit")
     private WebElement SubmitButton;
     @FindBy(linkText = "Signup")
     private WebElement SignupBtn;
     private List<Cookie> RestAssurCookeis;
+
     public List<Cookie> getCookeis() {
         return this.RestAssurCookeis;
     }
 
 
     @Step("aaddded description mannually to Load loging page and login")
-    public LoginPage Load(){
+    public LoginPage Load() {
         driver.get(ConfigUtils.GetInstance().ReturnBaseURL());
         return this;
     }
-@Step("click and get login popup")
-    public HomePage login () throws InterruptedException {
 
-    Assert.assertTrue(LoginMenu.isDisplayed());
+    @Step("click and get login popup")
+    public HomePage login() throws InterruptedException {
 
-    LoginMenu.click();
-    Assert.assertTrue(UserNameField.isDisplayed());
-    JavascriptExecutor jse = (JavascriptExecutor)driver;
-    jse.executeScript("arguments[0].click()", UserNameField);
+        Assert.assertTrue(LoginMenu.isDisplayed());
+
+        LoginMenu.click();
+        Assert.assertTrue(UserNameField.isDisplayed());
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("arguments[0].click()", UserNameField);
 //    UserNameField.click();
-    UserNameField.sendKeys(ConfigUtils.GetInstance().ReturnEmail());
-    GoToPassowrd.click();
-    Thread.sleep(10);
+        UserNameField.sendKeys(ConfigUtils.GetInstance().ReturnEmail());
+        GoToPassowrd.click();
+        Thread.sleep(10);
 //    Assert.assertTrue(PasswordField.isDisplayed());
 
-    PasswordField.click();
-    PasswordField.sendKeys(ConfigUtils.GetInstance().ReturnPassword());
+        PasswordField.click();
+        PasswordField.sendKeys(ConfigUtils.GetInstance().ReturnPassword());
         SubmitButton.click();
 
 //    String getCookeis;
@@ -74,8 +76,6 @@ public class LoginPage extends BasePage {
 
         return new HomePage(driver);
     }
-
-
 
 
 }

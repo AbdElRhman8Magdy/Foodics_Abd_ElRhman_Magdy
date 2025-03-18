@@ -10,9 +10,10 @@ import java.time.Duration;
 
 public class DriverFactory {
     protected WebDriver driver;
-    public WebDriver DriverInitialize(){
 
-        String browser = System.getProperty("browser","CHROME");
+    public WebDriver DriverInitialize() {
+
+        String browser = System.getProperty("browser", "CHROME");
         switch (browser) {
             case "CHROME" -> {
                 WebDriverManager.chromedriver().setup();
@@ -29,9 +30,7 @@ public class DriverFactory {
             case "SAFARI" -> WebDriverManager.safaridriver().setup();
             default -> throw new RuntimeException("Not Supported browser");
         }
-
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(25));
-
 //        driver.navigate().to("https://www.amazon.eg/");
         driver.manage().window().maximize();
 

@@ -20,59 +20,45 @@ import java.io.InputStream;
 import java.util.List;
 
 public class BaseTest {
-//    private WebDriver driver;
-    //private would be only shown to this class
-    //protected would be shown to any class inhirit this class
+    protected ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
-// add thread-local to be able to parallel execution for methods and classes
-    protected ThreadLocal<WebDriver>  driver = new ThreadLocal<>();
-
-    public void setDriver(WebDriver driver){
+    public void setDriver(WebDriver driver) {
         this.driver.set(driver);
     }
-    public WebDriver getDriver(){
+
+    public WebDriver getDriver() {
         return this.driver.get();
     }
-
     @BeforeMethod
-
-    public void Setup(){
-
+    public void Setup() {
         WebDriver driver = new DriverFactory().DriverInitialize();
         setDriver(driver);
     }
-
     @AfterMethod
-    public void Close( ITestResult result) throws InterruptedException {
-
+    public void Close(ITestResult result) throws InterruptedException {
         String testCaseName = result.getMethod().getMethodName();
-        File destFile = new File("target"+ File.separator + "ScreenShots" + File.separator+testCaseName+".png" );
+        File destFile = new File("target" + File.separator + "ScreenShots" + File.separator + testCaseName + ".png");
         takeScreenShoot(destFile);
-
         Thread.sleep(2000);
-
-       getDriver().quit();
+        getDriver().quit();
     }
     @Step
-    public void injectCookiestoBrowser(List<Cookie> ResrAssuredCokkies){
+    public void injectCookiestoBrowser(List<Cookie> ResrAssuredCokkies) {
         List<org.openqa.selenium.Cookie> SeleniumCookie = CookieUtils.ConvertRestAssuredcookiestoSeliniumCookies(ResrAssuredCokkies);
 
-        for(org.openqa.selenium.Cookie  cookie : SeleniumCookie  ){
+        for (org.openqa.selenium.Cookie cookie : SeleniumCookie) {
             getDriver()
                     .manage().addCookie(cookie);
         }
     }
-
     @Step
-    public void takeScreenShoot(File destFile){
+    public void takeScreenShoot(File destFile) {
 
-       File file = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
+        File file = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
         try {
-            FileUtils.copyFile(file,destFile);
-        InputStream iS = new FileInputStream(destFile);
-        Allure.addAttachment("screenshot",iS);
-
-
+            FileUtils.copyFile(file, destFile);
+            InputStream iS = new FileInputStream(destFile);
+            Allure.addAttachment("screenshot", iS);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
